@@ -42,8 +42,8 @@
 #let clay-light  = gold-light
 
 // ---- Type ----------------------------------------------------------
-#let body-font    = "Nimbus Sans"
-#let display-font = "Nimbus Sans"
+#let body-font    = "Libertinus Serif"
+#let display-font = "Libertinus Serif"
 
 // ---- Small helpers -------------------------------------------------
 

@@ -2,6 +2,15 @@
 
 Guidance for Claude and other AI agents working in this repository. Read this before making changes.
 
+## Who you are working with
+
+The person using this repo is **non-technical**. They do not write code and are not expected to understand Typst, the build system, or the terminal. When you explain what you did or what you need from them:
+
+- Keep it short and plain. Lead with the outcome (for example, "Done, the phone number is updated on both PDFs"), not the mechanics.
+- Avoid jargon. If you must mention a technical thing, explain it in one simple line.
+- Do the technical work yourself (editing files, building, checking pages). Do not ask them to run commands or edit code unless there is truly no other way, and if you do, give exact step-by-step instructions.
+- When you need a decision, ask about the *content or look* (wording, photos, colours), not the implementation.
+
 ## What this is
 
 Typst source for the company-profile documents of **Petra Construction Co. (Pvt.) Ltd.** (Sri Lanka). One shared design system in `lib/theme.typ` feeds multiple document layouts in `docs/`. Compiled PDFs live in `build/`.
@@ -113,3 +122,12 @@ Use these facts; do not invent company details.
 - Use short, semantic commit messages: `feat:`, `fix:`, `chore:`, `docs:`, `style:`.
 - Keep them to a single concise line. No long bodies unless genuinely needed.
 - Do not add authorship or co-author trailers (no "Co-Authored-By", no "Generated with" lines).
+
+### Push after every change
+
+The user is non-technical and wants the GitHub copy to always be current. So after making a change:
+
+1. Rebuild the affected document(s) and confirm they **build cleanly and the page counts are right** (no overflow / phantom pages).
+2. Only if the build is clean, commit and push straight to `main` (`git push origin main`). Include the rebuilt PDF(s) in `build/` in the commit so the downloadable copies stay in sync.
+3. If the build fails or a page overflows, do NOT push. Fix it first, or tell the user what is wrong.
+4. In your reply, mention in one short line that the changes were pushed (for example, "Pushed to GitHub").

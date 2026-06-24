@@ -73,11 +73,13 @@
   gutter: 20pt,
   [
     #eyebrow[Solid Foundations · Timeless Structures]
-    #v(14pt)
-    #text(font: display-font, size: 62pt, weight: "bold", fill: text-white)[Petra]
-    #v(-16pt)
-    #text(font: display-font, size: 62pt, weight: "bold", fill: gold)[Construction]
-    #v(16pt)
+    #v(12pt)
+    #text(font: display-font, size: 56pt, weight: "bold", fill: text-white)[Petra]
+    #v(-14pt)
+    #text(font: display-font, size: 56pt, weight: "bold", fill: gold)[Construction]
+    #v(12pt)
+    #text(size: 16pt, style: "italic", fill: gold-light)[On this rock we build.]
+    #v(10pt)
     #block(width: 92%)[
       #text(size: 13pt, fill: text-body)[
         Precision-engineered residences and structures, built to endure. Civil, M&E
@@ -439,7 +441,7 @@
       [
         #text(size: 9pt, fill: gold, tracking: 1pt)[EMAIL] \
         #v(3pt)
-        #text(size: 10pt, fill: text-white)[inquiry\@petraconstructions.lk]
+        #text(size: 10pt, fill: text-white)[petraconstructionlk\@gmail.com]
       ],
       [
         #text(size: 9pt, fill: gold, tracking: 1pt)[ADDRESS] \

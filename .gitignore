@@ -1,0 +1,22 @@
+# --- Python (tooling in tools/) ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# --- Scratch render previews ---
+.preview/
+.preview-ls/
+*.preview.png
+
+# --- OS / editor cruft ---
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+
+# NOTE: build/*.pdf is committed on purpose so the finished documents
+# can be downloaded straight from the repo. Delete the line below if you
+# would rather treat the PDFs as throwaway build artifacts.
+# build/

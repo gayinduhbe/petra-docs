@@ -1,0 +1,5 @@
+# Python deps for the asset/design tooling in tools/
+# Install:  pip install -r tools/requirements.txt
+numpy
+Pillow
+coloraide

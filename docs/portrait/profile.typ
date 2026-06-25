@@ -495,7 +495,7 @@
   columns: (1fr, 1fr),
   gutter: 12pt,
   card[#text(fill: gold, weight: "bold")[Engineer-led.] #text(fill: text-body)[ Every project is run by qualified engineers and quantity surveyors.]],
-  card[#text(fill: gold, weight: "bold")[Transparent costing.] #text(fill: text-body)[ Detailed BOQs and honest estimates, no surprises.]],
+  card[#text(fill: gold, weight: "bold")[Transparent costing.] #text(fill: text-body)[ Detailed BOQs and accurate estimates, no surprises.]],
   card[#text(fill: gold, weight: "bold")[Quality finishes.] #text(fill: text-body)[ Luxury-standard detailing and craftsmanship.]],
   card[#text(fill: gold, weight: "bold")[On-time, safe delivery.] #text(fill: text-body)[ Disciplined sites and realistic programmes.]],
 )

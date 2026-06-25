@@ -244,7 +244,7 @@
       #v(8pt)
       #text(fill: text-body)[
         Engineer-led, cost-controlled and safety-first. Detailed quantity surveying
-        keeps budgets honest, while on-site supervision keeps quality high and timelines
+        keeps budgets accurate, while on-site supervision keeps quality high and timelines
         on track.
       ]
     ]

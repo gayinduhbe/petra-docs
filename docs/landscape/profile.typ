@@ -11,7 +11,104 @@
   author: "Petra Construction Co. (Pvt.) Ltd.",
 )
 
-#let LOGO = "../../assets/logo/logo-dark.png"
+// =====================================================================
+//  LIGHT (PRINT-FRIENDLY) THEME, landscape only
+//  The shared theme.typ is dark. For the printed landscape copy we use a
+//  warm cream paper with dark ink text and gold accents, so it reads
+//  clearly on paper. These local definitions override the dark ones for
+//  THIS document only; the portrait profile stays dark.
+// =====================================================================
+// Warm cream neutrals
+#let bg-base    = rgb("#F6F1E9")   // warm cream page
+#let bg-card    = rgb("#FFFFFF")   // white panel
+#let bg-card-2  = rgb("#F1E9DB")   // raised warm panel
+#let border-col = rgb("#E2DACB")   // soft hairline border
+#let text-white = rgb("#1C1814")   // near-black ink (headings)
+#let text-body  = rgb("#4A443B")   // dark warm grey (body)
+#let text-muted = rgb("#8A8275")   // muted taupe (captions / labels)
+
+// Gold, deepened a touch so it reads on cream
+#let gold       = rgb("#A57C22")   // primary accent (also small text)
+#let gold-light = rgb("#C9A24B")   // brighter gold for large fills
+#let gold-deep  = rgb("#7E631A")
+
+// Accents / status, deepened for the light background
+#let navy       = rgb("#2E3A55")
+#let conn       = rgb("#B7AD98")   // org-chart connectors on cream
+#let steel      = navy
+#let clay       = gold
+#let success    = rgb("#4E7C5B")   // completed
+#let amber      = rgb("#A9772F")   // ongoing
+
+// ---- Components, rebound to the light palette above -----------------
+#let eyebrow(body, accent: gold) = text(
+  font: display-font, size: 9pt, weight: "bold",
+  fill: accent, tracking: 3pt,
+)[#upper(body)]
+
+#let accent-rule(w: 52pt, accent: gold) = box(width: w, height: 3pt, radius: 1.5pt, fill: accent)
+
+#let section-title(kicker, title, accent: gold, size: 31pt) = {
+  block(spacing: 0pt)[
+    #eyebrow(kicker, accent: accent)
+    #v(10pt)
+    #text(font: display-font, size: size, weight: "bold", fill: text-white)[#title]
+    #v(12pt)
+    #stack(dir: ltr, spacing: 5pt,
+      box(width: 40pt, height: 3pt, radius: 1.5pt, fill: accent),
+      box(width: 14pt, height: 3pt, radius: 1.5pt, fill: accent.transparentize(55%)),
+    )
+  ]
+  v(20pt)
+}
+
+#let card(body, fill: bg-card, accent: none) = block(
+  width: 100%, fill: fill,
+  stroke: if accent != none { (top: 2.5pt + accent, rest: 0.6pt + border-col) } else { 0.6pt + border-col },
+  radius: 5pt, inset: 16pt,
+)[#body]
+
+#let stat(number, label, note: none, accent: gold, size: 28pt) = {
+  text(font: display-font, size: size, weight: "bold", fill: accent)[#number]
+  v(4pt)
+  text(font: display-font, size: 9pt, weight: "bold", fill: text-white, tracking: 1.5pt)[#upper(label)]
+  if note != none {
+    v(4pt)
+    text(size: 8.5pt, fill: text-muted)[#note]
+  }
+}
+
+#let meta-item(label, value, note: none, accent: text-white, dot: none) = card(fill: bg-card-2)[
+  #text(size: 8pt, fill: gold, tracking: 1.5pt)[#upper(label)]
+  #v(7pt)
+  #if dot != none {
+    box(baseline: -1pt, circle(radius: 3pt, fill: dot))
+    h(6pt)
+  }
+  #text(font: display-font, size: 15pt, weight: "bold", fill: accent)[#value]
+  #if note != none {
+    v(4pt)
+    text(size: 8.5pt, fill: text-muted)[#note]
+  }
+]
+
+#let drop(h: 14pt) = align(center, box(width: 2pt, height: h, fill: conn))
+
+#let org-node(title, sub: none, accent: steel, fill: bg-card-2, fg: text-white) = block(
+  width: 100%, fill: fill,
+  stroke: (left: 3pt + accent, rest: 0.6pt + border-col),
+  radius: 4pt, inset: (x: 12pt, y: 11pt),
+)[
+  #align(center)[
+    #text(font: display-font, size: 10.5pt, weight: "bold", fill: fg)[#title]
+    #if sub != none [
+      #v(3pt)
+      #text(size: 8.5pt, fill: text-muted)[#sub]
+    ]
+  ]
+]
+
+#let LOGO = "../../assets/logo/logo-light.png"
 
 // ---- The left side band (drawn on every page) ----------------------
 #let side-band = {
@@ -78,7 +175,7 @@
     #v(-14pt)
     #text(font: display-font, size: 56pt, weight: "bold", fill: gold)[Construction]
     #v(12pt)
-    #text(size: 16pt, style: "italic", fill: gold-light)[On this rock we build.]
+    #text(size: 16pt, style: "italic", fill: gold)[On this rock we build.]
     #v(10pt)
     #block(width: 92%)[
       #text(size: 13pt, fill: text-body)[
@@ -291,9 +388,9 @@
 
 #v(6pt)
 #align(center, box(width: 42%,
-  block(width: 100%, fill: gold, radius: 5pt, inset: (x: 14pt, y: 12pt))[
+  block(width: 100%, fill: gold-light, radius: 5pt, inset: (x: 14pt, y: 12pt))[
     #align(center)[
-      #text(font: display-font, size: 13pt, weight: "bold", fill: bg-base)[Director / Engineer]
+      #text(font: display-font, size: 13pt, weight: "bold", fill: rgb("#2A2114"))[Director / Engineer]
       #v(2pt)
       #text(size: 9pt, fill: rgb("#4a3c18"))[Gayindu Umesh Perera]
     ]

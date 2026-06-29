@@ -108,7 +108,7 @@ make logo
 
 Use these facts; do not invent company details.
 
-- **Contact**: 71A Lake Road, Attidiya, Dehiwala. Phones 077 735 6371 and 077 929 8315. Website petraconstructions.lk.
+- **Contact**: 71A Lake Road, Attidiya, Dehiwala. Phones 077 735 6371 and 077 929 8315. Email petraconstructionlk@gmail.com. Website www.petraconstructions.lk.
 - **Team**: Gayindu Umesh Perera (Director/Engineer, BSc Civil Eng, RMIT Australia); Chitra Perera (Chief QS: City & Guilds, AMASI, MSST London); Yasoda Srimal Abeykoon (Construction Manager, HND Quantity Surveying, University of Liverpool); Nimal Thanthriarachchi (M&E Engineer, 35 years hotel industry, AC/refrigeration/heating); Ramya De Silva (Secretary).
 - **Projects**: Two-Storey Luxury Residence (Attidiya, completed), Three-Storey Luxury Residence (Nedimala, completed), Kalutara Luxury Hotel (Kalutara, completed, beachfront), Cost-Effective Housing Project (Kalawana, ongoing).
 
@@ -116,7 +116,7 @@ Use these facts; do not invent company details.
 
 - **Cover stats** ("Rs 500M+", "100%") are illustrative marketing figures.
 - **Kalawana project photos** are placeholder construction-progress shots reused from an earlier site; swap when real Kalawana photos arrive.
-- The spelling **AMASI**, the domain **petraconstructions.lk** (plural), and the email **inquiry@petraconstructions.lk** are intentional per the user.
+- The spelling **AMASI** and the domain **petraconstructions.lk** (plural, shown with the **www.** prefix) are intentional per the user. The contact email is **petraconstructionlk@gmail.com** (note: singular "construction", a Gmail address, not on the domain).
 
 ## Commits
 

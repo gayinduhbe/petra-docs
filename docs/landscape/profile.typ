@@ -141,7 +141,7 @@
     grid(columns: (1fr, auto),
       align: (left + horizon, right + horizon),
       upper[Solid foundations · Timeless structures],
-      [petraconstructions.lk #h(10pt) #text(fill: gold, weight: "bold")[#pg]],
+      [www.petraconstructions.lk #h(10pt) #text(fill: gold, weight: "bold")[#pg]],
     )
   },
 )
@@ -548,7 +548,7 @@
       [
         #text(size: 9pt, fill: gold, tracking: 1pt)[WEBSITE] \
         #v(3pt)
-        #text(size: 10pt, fill: text-white)[petraconstructions.lk]
+        #text(size: 10pt, fill: text-white)[www.petraconstructions.lk]
       ],
     )
   ],

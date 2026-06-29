@@ -111,12 +111,12 @@
 
     #text(size: 7.5pt, fill: gold, tracking: 1.5pt)[EMAIL]
     #v(3pt)
-    #text(size: 9.5pt, fill: ink)[inquiry\@petraconstructions.lk]
+    #text(size: 9.5pt, fill: ink)[petraconstructionlk\@gmail.com]
     #v(11pt)
 
     #text(size: 7.5pt, fill: gold, tracking: 1.5pt)[WEBSITE]
     #v(3pt)
-    #text(size: 9.5pt, fill: ink)[petraconstructions.lk]
+    #text(size: 9.5pt, fill: ink)[www.petraconstructions.lk]
     #v(11pt)
 
     #text(size: 7.5pt, fill: gold, tracking: 1.5pt)[ADDRESS]

@@ -520,12 +520,12 @@
     [
       #text(size: 9pt, fill: gold, tracking: 1pt)[EMAIL] \
       #v(3pt)
-      #text(size: 10pt, fill: text-white)[inquiry\@petraconstructions.lk]
+      #text(size: 10pt, fill: text-white)[petraconstructionlk\@gmail.com]
     ],
     [
       #text(size: 9pt, fill: gold, tracking: 1pt)[WEBSITE] \
       #v(3pt)
-      #text(size: 10pt, fill: text-white)[petraconstructions.lk]
+      #text(size: 10pt, fill: text-white)[www.petraconstructions.lk]
     ],
     [
       #text(size: 9pt, fill: gold, tracking: 1pt)[ADDRESS] \

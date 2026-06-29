@@ -139,7 +139,7 @@
       Built to endure.
     ]
     #v(10pt)
-    #tile("../../assets/projects/kalutara-hotel/01-exterior-night.jpeg", h: 58mm)
+    #tile("../../assets/projects/kalutara-hotel/02-beach-dining.jpeg", h: 58mm)
     #v(5pt)
     #text(size: 7.5pt, fill: muted, tracking: 1pt)[KALUTARA LUXURY HOTEL · COMPLETED]
     #v(12pt)
@@ -161,30 +161,35 @@
     )
   ],
 
-  // ---- Panel 3 : FRONT COVER (dark, premium) ------------------------
-  panel(fill: bg-dark, pad: 13mm)[
+  // ---- Panel 3 : FRONT COVER (light, premium) -----------------------
+  panel(fill: bg-card-2, pad: 13mm)[
     #place(top + right, dx: 13mm, dy: -13mm,
-      rect(width: 90mm, height: 90mm,
-        fill: gradient.radial(gold-light.transparentize(72%), bg-dark.transparentize(100%),
+      rect(width: 95mm, height: 95mm,
+        fill: gradient.radial(gold.transparentize(80%), bg-card-2.transparentize(100%),
           center: (100%, 0%), radius: 90%)))
-    #image("../../assets/logo/logo-dark.png", width: 104pt)
+    #image("../../assets/logo/logo-light.png", width: 104pt)
     #v(1fr)
-    #eyebrow(accent: gold-light)[Solid Foundations · Timeless Structures]
-    #v(13pt)
-    #text(font: display-font, size: 38pt, weight: "bold", fill: cream)[Petra]
+    #text(font: display-font, size: 38pt, weight: "bold", fill: ink)[Petra]
     #v(-12pt)
-    #text(font: display-font, size: 38pt, weight: "bold", fill: gold-light)[Construction]
+    #text(font: display-font, size: 38pt, weight: "bold", fill: gold)[Construction]
+    #v(16pt)
+    // Company motto, featured.
+    #rule-mark(w: 30pt)
+    #v(10pt)
+    #text(font: display-font, size: 16pt, style: "italic", fill: ink)[
+      Solid Foundations, \ Timeless Structures
+    ]
     #v(14pt)
-    #block(width: 92%)[
-      #text(size: 10pt, fill: cream-body)[
+    #block(width: 94%)[
+      #text(size: 9.5pt, fill: body)[
         Precision-engineered residences and structures, built to endure.
         Civil, M&E and turnkey construction, delivered with engineering rigour.
       ]
     ]
     #v(1fr)
-    #line(length: 100%, stroke: 0.5pt + rgb("#36322C"))
+    #line(length: 100%, stroke: 0.5pt + border-col)
     #v(8pt)
-    #text(size: 8pt, fill: cream-mut, tracking: 2pt)[COMPANY BROCHURE · 2026]
+    #text(size: 8pt, fill: muted, tracking: 2pt)[COMPANY BROCHURE · 2026]
   ],
 )
 

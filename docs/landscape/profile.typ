@@ -482,14 +482,14 @@
 #pagebreak()
 
 #project(
-  "09 · Project In Progress", "Cost-Effective Housing Project",
-  "Ongoing", amber, "Housing", [Cost-effective build], "Kalawana", [Ratnapura District],
+  "09 · Project In Progress", "Low Cost Housing Project",
+  "Ongoing", amber, "Housing", [Low cost build], "Kalawana", [Ratnapura District],
   (
     "../../assets/projects/kalawana-housing/01-blockwork.jpeg",
     "../../assets/projects/kalawana-housing/02-columns.jpeg",
     "../../assets/projects/kalawana-housing/03-roof-steel.jpeg",
   ),
-  [A cost-effective housing project under construction at Kalawana, designed to deliver
+  [A low cost housing project under construction at Kalawana, designed to deliver
    durable, well-built homes at an accessible price point, executed with the same care
    as our luxury work: reinforced concrete columns, precision blockwork and an engineered
    steel roof structure.],

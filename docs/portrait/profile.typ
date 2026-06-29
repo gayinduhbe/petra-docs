@@ -78,7 +78,7 @@
 #toc-row("06", "Project · Two-Storey Residence", "Completed luxury home, Attidiya")
 #toc-row("07", "Project · Three-Storey Residence", "Completed luxury home, Nedimala")
 #toc-row("08", "Project · Kalutara Luxury Hotel", "Completed beachfront hotel")
-#toc-row("09", "Project · Cost-Effective Housing", "Kalawana, in progress")
+#toc-row("09", "Project · Low Cost Housing", "Kalawana, in progress")
 #toc-row("10", "Why Choose Petra & Contact", "Get in touch")
 
 #pagebreak()
@@ -448,15 +448,15 @@
 #pagebreak()
 
 // =====================================================================
-//  PAGE · COST-EFFECTIVE HOUSING PROJECT (KALAWANA, ONGOING)
+//  PAGE · LOW COST HOUSING PROJECT (KALAWANA, ONGOING)
 // =====================================================================
-#section-title("09 · Project In Progress", "Cost-Effective Housing Project", size: 26pt)
+#section-title("09 · Project In Progress", "Low Cost Housing Project", size: 26pt)
 
 #grid(
   columns: (1fr, 1fr, 1fr),
   gutter: 10pt,
   meta-item("Status", "Ongoing", note: [Under construction], dot: amber, accent: amber),
-  meta-item("Type", "Housing", note: [Cost-effective build]),
+  meta-item("Type", "Housing", note: [Low cost build]),
   meta-item("Location", "Kalawana", note: [Ratnapura District]),
 )
 
@@ -472,7 +472,7 @@
 
 #v(14pt)
 #text(size: 10pt, fill: text-body)[
-  A cost-effective housing project currently under construction at Kalawana, designed
+  A low cost housing project currently under construction at Kalawana, designed
   to deliver durable, well-built homes at an accessible price point. These images show
   the engineering that underpins every Petra build: reinforced concrete columns,
   precision blockwork and an engineered steel roof structure, executed with the same

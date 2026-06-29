@@ -295,6 +295,6 @@
     #v(9pt)
     #project(
       "../../assets/projects/kalawana-housing/02-columns.jpeg",
-      "Cost-Effective Housing Project", "Kalawana, Ratnapura", "Ongoing", amber)
+      "Low Cost Housing Project", "Kalawana, Ratnapura", "Ongoing", amber)
   ],
 )

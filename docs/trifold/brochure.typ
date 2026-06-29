@@ -286,7 +286,7 @@
     ]
 
     #project(
-      "../../assets/projects/two-storey-attidiya/03-lake-view.jpeg",
+      "../../assets/projects/two-storey-attidiya/01-entrance.jpeg",
       "Two-Storey Luxury Residence", "Attidiya", "Completed", success)
     #v(9pt)
     #project(

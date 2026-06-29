@@ -15,16 +15,17 @@ The person using this repo is **non-technical**. They do not write code and are 
 
 Typst source for the company-profile documents of **Petra Construction Co. (Pvt.) Ltd.** (Sri Lanka). One shared design system in `lib/theme.typ` feeds multiple document layouts in `docs/`. Compiled PDFs live in `build/`.
 
-There are two documents today: a **portrait** profile (12 pages) and a **landscape** profile (11 pages). They share theme, palette, components, and assets.
+There are three documents today: a **portrait** profile (12 pages, dark), a **landscape** profile (11 pages, light/print-friendly), and a **tri-fold brochure** (`docs/trifold/brochure.typ`, one A4 landscape sheet / 2 PDF pages, light interior with a dark gold cover). They share fonts, logo, and project assets. The brochure uses its own light palette and panel components inline rather than the shared dark `card()`/`stat()`, the same pattern the landscape edition uses.
 
 ## Build and verify
 
 Always build with `--root .` from the repo root. The documents live in `docs/<layout>/` but read `lib/theme.typ` and `assets/` from the root, which Typst only allows when the root is set.
 
 ```bash
-make all          # both documents
+make all          # all three documents
 make portrait     # docs/portrait/profile.typ  -> build/petra-company-profile.pdf
 make landscape    # docs/landscape/profile.typ -> build/petra-company-profile-landscape.pdf
+make brochure     # docs/trifold/brochure.typ  -> build/petra-brochure.pdf
 ```
 
 Direct invocation if `make` is unavailable:

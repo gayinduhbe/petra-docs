@@ -173,12 +173,14 @@
     #v(-12pt)
     #text(font: display-font, size: 38pt, weight: "bold", fill: gold)[Construction]
     #v(16pt)
-    // Company motto, featured.
+    // Featured quote (Petra means "rock").
     #rule-mark(w: 30pt)
-    #v(10pt)
-    #text(font: display-font, size: 16pt, style: "italic", fill: ink)[
-      Solid Foundations, \ Timeless Structures
+    #v(11pt)
+    #text(font: display-font, size: 20pt, style: "italic", fill: ink)[
+      "On this rock, \ we build."
     ]
+    #v(10pt)
+    #eyebrow[Solid Foundations · Timeless Structures]
     #v(14pt)
     #block(width: 94%)[
       #text(size: 9.5pt, fill: body)[
